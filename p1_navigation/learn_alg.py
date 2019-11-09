@@ -5,7 +5,6 @@ from dqn_agent import Agent
 
 def dqn(agent, brain_name, env, n_episodes=2000, max_t=1000, eps_start=1.0, eps_end=0.01, eps_decay=0.995):
     """Deep Q-Learning.
-    
     Params
     ======
         n_episodes (int): maximum number of training episodes
@@ -13,7 +12,11 @@ def dqn(agent, brain_name, env, n_episodes=2000, max_t=1000, eps_start=1.0, eps_
         eps_start (float): starting value of epsilon, for epsilon-greedy action selection
         eps_end (float): minimum value of epsilon
         eps_decay (float): multiplicative factor (per episode) for decreasing epsilon
+    Returns
+    =======
+        list of scores obtained after learning from each episode.
     """
+    
     scores = []                        # list containing scores from each episode
     scores_window = deque(maxlen=100)  # last 100 scores
     eps = eps_start                    # initialize epsilon
