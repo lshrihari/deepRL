@@ -48,7 +48,7 @@
  
 ## Outcome
 
-* As shown in `Navigation.ipynb`, the environment was solved in 511 episodes. Learning was continued to 2000 episodes; weights were only saved when a higher average score (over 100 episodes) than the current best average score, was obtained. A good set of Q-function weights are provided in `saved/checkpoint.pth`. Three test runs provided average agent scores of 23, 16 and 17. An animation of a trained agent is provided below. In comparison with the untrained agent observed earlier, this agent seeks out yellow banannas and clearly demonstrates the acquisition of this skill.
+* As shown in `Navigation.ipynb`, the environment was solved in 511 episodes; a plot of the scores obtained is also provided in it. Learning was continued to 2000 episodes; weights were only saved when a higher average score (over 100 episodes) than the current best average score, was obtained. A good set of Q-function weights are provided in `saved/checkpoint.pth`. Three test runs provided average agent scores of 23, 16 and 17. An animation of a trained agent is provided below. In comparison with the untrained agent observed earlier, this agent seeks out yellow banannas and clearly demonstrates the acquisition of this skill.
 
 ![Trained agent seeking yellow banannnas](saved/trained_agent.gif)
 
