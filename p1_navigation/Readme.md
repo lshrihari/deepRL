@@ -21,4 +21,4 @@
 ## Running the code
 * From the Jupyter interface, open file `Navigation.ipynb` and step through each line of the code.
 * In the last step, the agent loads pre-trained weights which are saved in `saved/checkpoint.pth` and agent-testing uses these for testing.  If training is done afresh, change `torch.load('saved/checkpoint.pth')` to `torch.load('checkpoint.pth')` in the last code block to load the trained weights.
-* **For further details and an image showing how a trained agent might perform, see the file `Report.ipynb` or `Report.html`** Since Github-Markdown did not render math symbols correctly, two formats of the same report are provided - a Python Notebook and a HTML file.
+* **For further details and an image showing how a trained agent might perform, see the file `Report.ipynb`**.
