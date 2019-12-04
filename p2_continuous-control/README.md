@@ -9,6 +9,8 @@
 
 This project uses Deep Reinforcement Learning to solve the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment. The environment involves a double jointed arm tracking a ball (target) as closely as possible. Specifically, the environment used in this project involves 20 such arms and the objective of this project is to learn a controller for these arms or agents.
 
+![Trained Agent][image1]
+
 ## Environment Details
 
 * State - 33 dimensional vector comprising position, rotation, velocity and angular velocities of each arm.
