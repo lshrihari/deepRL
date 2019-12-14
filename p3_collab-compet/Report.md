@@ -26,7 +26,7 @@ Prior to any training, the agents perform random actions and do not try to keep 
 ## Outcome
 
 * A successful training outcome is available in the "saved" folder. It includes model weights and average scores obtained. The plot of the average scores is provided below. The environment was solved in 888 episodes when it obtained an average reward (over 100 episodes) of 0.51; training was however continued to 3000 episodes to further improve the agent's skills - model weights were only saved when the average reward was better than any previously recorded outcome (that is already above 0.5). The maximum average reward obtained over the entire run was 0.90 .
-* Average, over 100 episodes, of the maximum scores of the two agents, obtained suring training are shown in the plot below.
+* The maximum of the scores of the two agents obtained in each episode of training is shown in the plot below.
 
 ![Scores](saved/scores.png)
 
