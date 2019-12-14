@@ -20,12 +20,19 @@ This project uses Deep Reinforcement Learning to solve the [Tennis](https://gith
 * The environment is said to have been solved when the aggregate of the maximum reward across the two agents is >= 0.5 for 100 consecutive episodes.
 
 ## Setup
-* Clone this repository
-* Download and unzip the environment in this folder, as per the platform in use.
+
+* A Python distribution (with `python3`) is assumed present in the system.
+* Install packages `pytorch` (CPU version is sufficient; install the GPU version if one is available and suitable CUDA/CUDNN dependencies are already installed) and all its dependencies using `conda` or `pip3` . Package `numpy` should have automatically been installed; if not, install that as well.
+* Install Unity ML-agents as per the instructions provided at [here](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md) . Python packages `tensorflow` and `jupyter` will also be installed.
+* Download and unzip the Tennis environment, as per the platform in use.
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
     - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip)
     - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip)
+* Clone this repository
+* Run the command `jupyter notebook` in the command-line. Open the file `Tennis.ipynb` and step through each step of the code. If the first couple of blocks execute successfully, the installation is successful. Continue stepping through the code to train the agent.
+
+## Setup 
 
 
 ## Running the code
